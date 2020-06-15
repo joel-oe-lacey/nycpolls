@@ -16,6 +16,24 @@ export default class Map extends Component  {
         };
     }
 
+    fetchPollingPoints = async () => {
+        try {
+            const settings = {
+                method: "GET", headers: { "Content-Type": "application/json", 'X-App-Token': "I4HU56w9UWCUEicW4AxsHDNck" }
+            };
+            const response = await fetch('https://data.cityofnewyork.us/resource/utqd-4534.json', settings);
+            if (!response.ok) {
+                throw new Error('API error');
+            }
+            const pollData = await response.json();
+            const pollFeatures = await this.createPollingFeatures(pollData);
+            this.setState({ pollLocations: pollFeatures })
+        }
+        catch (e) {
+            console.log(e.message);
+        }
+    }
+
     componentDidMount() {
         const map = new mapboxgl.Map({
             container: 'map',
