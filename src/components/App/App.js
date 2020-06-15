@@ -35,7 +35,12 @@ export default class App extends Component  {
   render() {
     return (
       <div className="App">
+        <div className="title">
+          <h1>Democracy NYC</h1>
+          <h2>Find your nearest polling location</h2>
+        </div>
         <Map pollingData={this.state.pollLocations} />
+        <h3 className='footer'>Polling locations sourced live from NYC's SODA API</h3>
       </div>
     );
   } 
