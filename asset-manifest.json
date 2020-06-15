@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/nycpolls/static/css/main.500bbf23.chunk.css",
-    "main.js": "/nycpolls/static/js/main.d095cc7b.chunk.js",
-    "main.js.map": "/nycpolls/static/js/main.d095cc7b.chunk.js.map",
+    "main.css": "/nycpolls/static/css/main.7c82a748.chunk.css",
+    "main.js": "/nycpolls/static/js/main.df383bb5.chunk.js",
+    "main.js.map": "/nycpolls/static/js/main.df383bb5.chunk.js.map",
     "runtime-main.js": "/nycpolls/static/js/runtime-main.7061052c.js",
     "runtime-main.js.map": "/nycpolls/static/js/runtime-main.7061052c.js.map",
     "static/css/2.b4a16772.chunk.css": "/nycpolls/static/css/2.b4a16772.chunk.css",
     "static/js/2.193ff9fc.chunk.js": "/nycpolls/static/js/2.193ff9fc.chunk.js",
     "static/js/2.193ff9fc.chunk.js.map": "/nycpolls/static/js/2.193ff9fc.chunk.js.map",
     "index.html": "/nycpolls/index.html",
-    "precache-manifest.a7ab5d60506989b0de57ad0244adc087.js": "/nycpolls/precache-manifest.a7ab5d60506989b0de57ad0244adc087.js",
+    "precache-manifest.d2f72e09a9de877ea7202668d2144e8a.js": "/nycpolls/precache-manifest.d2f72e09a9de877ea7202668d2144e8a.js",
     "service-worker.js": "/nycpolls/service-worker.js",
     "static/css/2.b4a16772.chunk.css.map": "/nycpolls/static/css/2.b4a16772.chunk.css.map",
-    "static/css/main.500bbf23.chunk.css.map": "/nycpolls/static/css/main.500bbf23.chunk.css.map",
+    "static/css/main.7c82a748.chunk.css.map": "/nycpolls/static/css/main.7c82a748.chunk.css.map",
     "static/js/2.193ff9fc.chunk.js.LICENSE.txt": "/nycpolls/static/js/2.193ff9fc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7061052c.js",
     "static/css/2.b4a16772.chunk.css",
     "static/js/2.193ff9fc.chunk.js",
-    "static/css/main.500bbf23.chunk.css",
-    "static/js/main.d095cc7b.chunk.js"
+    "static/css/main.7c82a748.chunk.css",
+    "static/js/main.df383bb5.chunk.js"
   ]
 }

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/nycpolls/precache-manifest.a7ab5d60506989b0de57ad0244adc087.js"
+  "/nycpolls/precache-manifest.d2f72e09a9de877ea7202668d2144e8a.js"
 );
 
 self.addEventListener('message', (event) => {

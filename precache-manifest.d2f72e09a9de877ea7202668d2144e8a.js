@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "984435ee8dc159405c9c589787cb0b50",
+    "revision": "77e90d87bfd251bca25716c07ef33b83",
     "url": "/nycpolls/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nycpolls/static/css/2.b4a16772.chunk.css"
   },
   {
-    "revision": "b0cb51a47e74544708ea",
-    "url": "/nycpolls/static/css/main.500bbf23.chunk.css"
+    "revision": "c80aeb8e4e863ee683fe",
+    "url": "/nycpolls/static/css/main.7c82a748.chunk.css"
   },
   {
     "revision": "114ce2a2040f6e0b545c",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nycpolls/static/js/2.193ff9fc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b0cb51a47e74544708ea",
-    "url": "/nycpolls/static/js/main.d095cc7b.chunk.js"
+    "revision": "c80aeb8e4e863ee683fe",
+    "url": "/nycpolls/static/js/main.df383bb5.chunk.js"
   },
   {
     "revision": "c66e0632715bc8a50adf",
