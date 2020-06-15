@@ -17,10 +17,11 @@ export default class MapGL extends Component {
 
     render() {
         const MAPBOX_STYLE = 'mapbox://styles/joel-oe-lacey/ckbgpw4dh0bvv1ipdym0olpg4';
-        const createPollingFeatures = this.props.pollingData.reduce((acc, poll) => {
+        const createPollingFeatures = this.props.pollingData.reduce((acc, poll, index) => {
                 if (poll.location) {
                     acc.push(
                         <Feature
+                            key={index}
                             coordinates={[poll.location.longitude, poll.location.latitude]}
                             properties={poll}
                         />)
@@ -35,7 +36,12 @@ export default class MapGL extends Component {
                 center={[this.state.lng, this.state.lat]}
                 zoom={this.state.zoom}
             >
-                <Layer type="circle" id="marker"
+                <Layer type="circle" id="marker" paint={{
+                    'circle-color': '#ff6602',
+                    'circle-stroke-width': 1,
+                    'circle-stroke-color': '#003585',
+                    'circle-stroke-opacity': .7
+                }}
                 >
                     {createPollingFeatures}
                 </Layer>

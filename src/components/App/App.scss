@@ -16,15 +16,26 @@ html,
 .title {
   position: fixed;
   z-index: 99999;
-  background-color: black;
+  background-color: hsla(216,100,26, 0.8);
   margin: 1%;
   padding: 1%;
-  color: white;
+  color: hsla(23,100,50, 0.8);
   top: 0;
-  left: 35%;
+  left: 50%;
+  width: auto;
+  height: auto;
+  -webkit-transform: translate(-50%,-10%);
+  -moz-transform: translate(-50%,-10%);
+  -ms-transform: translate(-50%,-10%);
+  -o-transform: translate(-50%,-10%);
+  transform: translate(-50%,-10%);
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-bottom-right-radius: 5% 20%;
+  border-top-right-radius: 5% 20%;
+  border-bottom-left-radius: 5% 20%;
+  border-top-left-radius: 5% 20%;
 }
 
 .footer {
@@ -32,7 +43,14 @@ html,
   z-index: 99999;
   margin: 1%;
   padding: 1%;
-  color: black;
+  color: hsla(216,100,26, 1);
   bottom: 0;
-  left: 35%; 
+  left: 50%;
+  width: auto;
+  height: auto;
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
 }
